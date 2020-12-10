@@ -15,7 +15,7 @@ def main():
     for num1 in numList:
         for num2 in numList:
             if int(num1)+int(num2) == 2020:
-                print(f"{int(num1)}*{int(num2)} = {int(num1)*int(num2)}")
+                print(f"{int(num1)}*{int(num2)} = {int(num1)*int(num2)}")  # first two int conversions are needed in order to strip '\n' character
                 return
 
 

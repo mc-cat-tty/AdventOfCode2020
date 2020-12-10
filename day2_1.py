@@ -1,7 +1,7 @@
 """
-Day 1, part 1 - Report Repair
+Day 2, part 1 - Report Repair
 
-https://adventofcode.com/2020/day/1
+https://adventofcode.com/2020/day/2
 
 Usage: pipe your input into the script
 """
@@ -13,7 +13,7 @@ import re, sys
 count = 0
 
 for ele in sys.stdin:
-    print(ele)
+    # print(ele)
     r = re.match("(\d+)-(\d+) (\w): (\w+)", ele).groups()
     Nmin = r[0]
     Nmax = r[1]

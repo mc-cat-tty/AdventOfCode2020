@@ -1,5 +1,5 @@
 """
-Day 2, part 1 - Report Repair
+Day 2, part 1 - Password Philosophy
 
 https://adventofcode.com/2020/day/2
 

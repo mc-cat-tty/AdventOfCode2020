@@ -10,16 +10,20 @@ __author__ = "Francesco Mecatti"
 
 import re, sys
 
-count = 0
+def main():
+    count = 0
 
-for ele in sys.stdin:
-    # print(ele)
-    r = re.match("(\d+)-(\d+) (\w): (\w+)", ele).groups()
-    Nmin = int(r[0])
-    Nmax = int(r[1])
-    L = r[2]
-    W = r[3]
-    if (W[Nmin-1] == L and W[Nmax-1] != L) or (W[Nmin-1] != L and W[Nmax-1] == L):
-            count += 1
+    for ele in sys.stdin:
+        # print(ele)
+        r = re.match("(\d+)-(\d+) (\w): (\w+)", ele).groups()
+        Nmin = int(r[0])
+        Nmax = int(r[1])
+        L = r[2]
+        W = r[3]
+        if (W[Nmin-1] == L and W[Nmax-1] != L) or (W[Nmin-1] != L and W[Nmax-1] == L):
+                count += 1
 
-print(count)
+    print(count)
+
+if __name__ == "__main__":
+    main()

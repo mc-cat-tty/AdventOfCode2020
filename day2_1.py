@@ -15,7 +15,7 @@ def main():
 
     for ele in sys.stdin:
         # print(ele)
-        r = re.match("(\d+)-(\d+) (\w): (\w+)", ele).groups()
+        r = re.match(r"(\d+)-(\d+) (\w): (\w+)", ele).groups()
         Nmin = r[0]
         Nmax = r[1]
         L = r[2]

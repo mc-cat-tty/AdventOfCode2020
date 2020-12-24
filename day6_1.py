@@ -1,7 +1,7 @@
 """
-Day 5, part 1 - Binary Boarding
+Day 6, part 1 - Custom Customs
 
-https://adventofcode.com/2020/day/5
+https://adventofcode.com/2020/day/6
 
 Usage: pipe your input into the script
 """

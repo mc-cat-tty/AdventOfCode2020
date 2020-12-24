@@ -15,4 +15,4 @@ watch -n 1 -d 'cat input3 | python3 day3_1.py'
 
 This way, `watch` will keep the script results updated (remember to save with `ESC :w` to apply changes) and you'll notice when the algorithm is right
 
-Tips: try your solution against the examples given in the puzzle
+Tip: try your solution against the examples given in the puzzle

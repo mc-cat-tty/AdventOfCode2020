@@ -12,7 +12,6 @@ import sys
 import re
 
 def main():
-    max_id: int = -1
     for line in sys.stdin:
         line = line.strip()
         if not line:  # Blank line
